@@ -1,0 +1,29 @@
+{
+  "name": "cpc-boton",
+  "version": "1.0.0",
+  "description": "Simple Boton",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "webpack --watch",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "browser-support": "npx browserslist"
+  },
+  "author": "Ing. Cesar Paez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "material-design-icons": "^3.0.1"
+  }
+}
